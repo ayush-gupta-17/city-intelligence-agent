@@ -9,7 +9,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 #model setup 
-ChatMistralAI(
+llm=ChatMistralAI(
     model="mistral-small-latest",
     temperature=0
 )
